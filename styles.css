@@ -1,0 +1,111 @@
+:root{
+    --color-green: #50fab7;
+    --color-rocket: #7159c1;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #282a36;
+}
+
+
+/* PÁGINA PRINCIPAL */
+
+.cabecalho{
+    background: #282a36;
+    filter: brightness(90%);
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    padding: 30px;
+}
+
+.navbar li{
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover{
+    color: var(--color-green);
+}
+
+.navbar .logo{
+    margin-top: 19px;
+}
+
+/* PÁGINA SOBRE */
+
+.conteudo{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.conteudo img{
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.conteudo h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.conteudo p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.tecnologias{
+    list-style: disc;
+    display: flex;
+}
+
+li.no-style{
+    list-style: none;
+}
+
+.tecnologias li{
+    color: white;
+    margin: 18px auto;
+    padding: 25px;
+}
+
+
+.rodape{
+    background-color: #282a36;
+    filter: brightness(90%);
+    height: 80px;
+}
+
+.redes-sociais{
+    list-style: none;
+    display: flex;
+    color: white;
+    margin: 20px;
+}
+
+.redes-sociais a{
+    margin: 20px auto;
+    color: white;
+    text-decoration: none;
+}
+
+.redes-sociais a:hover{
+    color: var(--color-green);
+}
